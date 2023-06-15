@@ -1,0 +1,21 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-sidebar:#eff8ff;
+    --gb-header-content:#fef5e6;
+    --bg-content-hero:#cdcff8;
+    --bg-content-form:#fff0f5;
+}
+
+li,ul{
+    list-style: none;
+}
+
+a{
+    text-decoration:none;
+}
+

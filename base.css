@@ -19,3 +19,34 @@ a{
     text-decoration:none;
 }
 
+.bg-round{
+    border: 1px solid transparent;
+    padding: 12px;
+    border-radius: 100%;
+    background-color: #fff;    
+}
+
+textarea{
+    border: transparent;
+    outline: none;
+    scroll-behavior: smooth;
+    will-change: scroll-position;
+}
+
+textarea::-webkit-scrollbar{
+    display: block;
+    width: 10px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    width: 10px;
+    background:#c2c2c2;
+    cursor: pointer;
+    overflow: visible;
+    transition:all .3s linear;
+}
+  
+textarea::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}   

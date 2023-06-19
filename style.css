@@ -5,7 +5,7 @@
 
 .content__header{
     background-color: var(--gb-header-content);
-    height: 16vh;
+    height: 14vh;
 }
 
 .content__hero{
@@ -24,3 +24,29 @@
     margin-right: 34px;
 }
 
+/* side bar */
+.sidebar__header {
+    text-align: center;
+}
+
+.sidebar__header-info {
+    font-size: 14px;
+}
+
+.comment {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.btn-comment {
+    margin: auto;
+}
+
+.sidebar__feedback-comment {
+    text-align: center;
+}
+.sidebar__feedback-comment-label {
+    text-align: left;
+}
+
+/* header */

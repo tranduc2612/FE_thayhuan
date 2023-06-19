@@ -11,17 +11,62 @@
 		/>
 		<link rel="stylesheet" href="base.css" />
 		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="ngoc.css">
 		<title>Human Evaluation</title>
 	</head>
 	<body>
 		<div class="container mt-3" style="background-color: #ffffff; height: 100%">
 			<div class="row">
 				<div class="col-3 pe-1">
-					<div class="side__bar">sidebar</div>
+					<div class="sidebar p-3">
+						<!-- sidebar -->
+						<div class="sidebar__header">
+							<div class="sidebar__header-title mt-2">
+								<span class="fs-3 text-primary">
+									🕵️Human Evaluation
+								</span>
+							</div>
+							<div class="sidebar__header-info mt-2">
+								You are logged in as <b>admin</b> [<a href="">Log out</a>]
+							</div>
+						</div>
+						<div class="sidebar__paging mt-3 d-flex justify-content-between">
+							<button type="button" class="btn btn-primary btn-sm">&lt;</button>
+							<div class="sidebar__paging-info fs-5">Instance 1</div>
+							<button type="button" class="btn btn-primary btn-sm">&gt;</button>
+						</div>
+						<div class="sidebar__feedback">
+							<div class="mt-5">Do you find the instance insteresting, invalid, or too hard to complete? Please let us know by giving feedback here! (Optional)</div>
+							<div class="sidebar__feedback-options form-check mt-3">
+								<input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
+								<label class="form-check-label" for="radio1">This example is interesting.</label>
+							  </div>
+							  <div class="form-check">
+								<input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+								<label class="form-check-label" for="radio2">This example is invalid.</label>
+							  </div>
+							  <div class="form-check">
+								<input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3">
+								<label class="form-check-label" for="radio3">This example is too hard for me.</label>
+							  </div>
+							<div class="sidebar__feedback-comment mt-4">
+								<div class="sidebar__feedback-comment-label">Comment:</div>
+								<textarea class="comment p-2 w-100" name="" id="" rows="3"></textarea>
+								<button type="button" class="btn-comment btn btn-primary btn-sm mt-2"> Provide feedback</button>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="col-9 ps-1">
 					<div class="content">
-						<header class="content__header mb-2">header</header>
+						<header class="content__header mb-2 p-3">
+							<div class="content__header-title mt-2">
+								<span class="bg-round">👱</span>
+								<span>
+									Design a skill assessment questioner for R (Programming language).
+								</span>
+							</div>
+						</header>
 						<section class="content__hero mb-2 p-3">
 							<div class="content__hero-title mt-2">
 								<span class="bg-round">🤖</span>

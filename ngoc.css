@@ -1,0 +1,26 @@
+/* side bar */
+.sidebar__header {
+    text-align: center;
+}
+
+.sidebar__header-info {
+    font-size: 14px;
+}
+
+.comment {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.btn-comment {
+    margin: auto;
+}
+
+.sidebar__feedback-comment {
+    text-align: center;
+}
+.sidebar__feedback-comment-label {
+    text-align: left;
+}
+
+/* header */

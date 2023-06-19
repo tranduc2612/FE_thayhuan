@@ -1,11 +1,11 @@
-.side__bar{
+.sidebar{
     height:100%;
     background-color: var(--bg-sidebar);
 }
 
 .content__header{
     background-color: var(--gb-header-content);
-    height: 19vh;
+    height: 16vh;
 }
 
 .content__hero{

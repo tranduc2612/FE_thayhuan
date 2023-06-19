@@ -25,7 +25,7 @@
 						<section class="content__hero mb-2 p-3">
 							<div class="content__hero-title mt-2">
 								<span class="bg-round">🤖</span>
-								<span class="fs-5 fw-bold"
+								<span class="fw-medium"
 									>Here are responses from two AI models</span
 								>
 							</div>
@@ -88,8 +88,171 @@
 								</div>
 							</div>
 						</section>
-						<div class="content__form">
-							<form>form khảo sát</form>
+						<div class="content__form p-4 fw-medium">
+							<form class="d-flex flex-column">
+								<div class="d-flex">
+									<span class="bg-round me-2">📝</span>
+									<span class="">
+										Now please evaluate the two outputs based on your knowledge,
+										preference, and any external tools (eg., Google Search or
+										Translate)
+									</span>
+								</div>
+
+								<div class="wrap_form mt-3">
+									<span class="input__title"
+										>Q1: Is output A an acceptable response? An acceptable
+										response should 1 answer the user requests 2 have no
+										significant errors have no meaningless text.(e.g.,
+										repetition)</span
+									>
+									<div class="input-group mb-3 mt-3">
+										<div class="form-check me-3">
+											<input
+												class="form-check-input"
+												type="radio"
+												name="question1"
+												value="Yes"
+												id="yesQ1"
+												checked
+											/>
+											<label class="form-check-label" for="yesQ1">Yes</label>
+										</div>
+										<div class="form-check">
+											<input
+												class="form-check-input"
+												type="radio"
+												name="question1"
+												value="No"
+												id="noQ1"
+											/>
+											<label class="form-check-label" for="noQ1"> No </label>
+										</div>
+									</div>
+
+									<span class="input__title"
+										>Q2: Is output B an acceptable response? An acceptable
+										response should 1 answer the user requests 2 have no
+										significant errors have no meaningless text.(e.g.,
+										repetition)</span
+									>
+									<div class="input-group mb-3 mt-3">
+										<div class="form-check me-3">
+											<input
+												class="form-check-input"
+												type="radio"
+												name="question2"
+												value="Yes"
+												id="yesQ2"
+												checked
+											/>
+											<label class="form-check-label" for="yesQ2">Yes</label>
+										</div>
+										<div class="form-check">
+											<input
+												class="form-check-input"
+												type="radio"
+												name="question2"
+												value="No"
+												id="noQ2"
+											/>
+											<label class="form-check-label" for="noQ2"> No </label>
+										</div>
+									</div>
+
+									<span class="input__title"
+										>Q3: Please choose the response that you prefer (based on
+										helpfulness)</span
+									>
+									<div class="input-group mb-3 mt-3">
+										<div class="form-check p-0">
+											<input
+												class="form-check-input d-none"
+												type="radio"
+												name="question3"
+												value="A is clearly better"
+												id="ans1Q3"
+												checked
+											/>
+											<label
+												class="btn btn-secondary form-check-label rounded-0 rounded-start"
+												for="ans1Q3"
+												>A is clearly better</label
+											>
+										</div>
+										<div class="form-check p-0">
+											<input
+												class="form-check-input d-none"
+												type="radio"
+												name="question3"
+												value="A is slightly better"
+												id="ans2Q3"
+											/>
+											<label
+												class="btn btn-secondary form-check-label rounded-0"
+												for="ans2Q3"
+											>
+												A is slightly better
+											</label>
+										</div>
+
+										<div class="form-check p-0">
+											<input
+												class="form-check-input d-none"
+												type="radio"
+												name="question3"
+												value="Tie"
+												id="ans3Q3"
+											/>
+											<label
+												class="btn btn-secondary form-check-label rounded-0"
+												for="ans3Q3"
+											>
+												Tie
+											</label>
+										</div>
+
+										<div class="form-check p-0">
+											<input
+												class="form-check-input d-none"
+												type="radio"
+												name="question3"
+												value="B is slightly better"
+												id="ans4Q3"
+											/>
+											<label
+												class="btn btn-secondary form-check-label rounded-0"
+												for="ans4Q3"
+											>
+												B is slightly better
+											</label>
+										</div>
+
+										<div class="form-check p-0">
+											<input
+												class="form-check-input d-none"
+												type="radio"
+												name="question3"
+												value="A is clearly better"
+												id="ans5Q3"
+											/>
+											<label
+												class="btn btn-secondary form-check-label rounded-0 rounded-end"
+												for="ans5Q3"
+											>
+												A is clearly better
+											</label>
+										</div>
+									</div>
+									<button
+										type="submit"
+										class="btn btn-primary"
+										style="margin-left: 50%"
+									>
+										Submit
+									</button>
+								</div>
+							</form>
 						</div>
 					</div>
 				</div>

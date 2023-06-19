@@ -10,7 +10,7 @@
 
 .content__hero{
     background-color:var(--bg-content-hero);
-    height: 50vh;
+    /* height: 50vh; */
 }
 
 .content__form{
